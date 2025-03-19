@@ -1,0 +1,50 @@
+name: branch-main-build-and-deploy-to-firebase-hosting
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔥 Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 🏗️ Install Node.js & cache dependencies
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 📦 Audit fix (non-blocking)
+        run: npm audit fix || echo "npm audit fix failed, continuing..."
+
+      - name: 📦 Force audit fix (including breaking changes)
+        run: npm audit fix --force || echo "npm audit fix --force failed, continuing..."
+
+      - name: 📄 Create .env
+        run: |
+          echo "VITE_APP_API_URL=${{ secrets.VITE_APP_API_URL }}" > .env
+          echo "VITE_APP_MODE=${{ secrets.VITE_APP_MODE }}" >> .env
+
+      - name: 🚀 Build project
+        run: npm run build
+
+      - name: 📂 Copy Firebase test config
+        run: |
+          cp .firebasesrc.main .firebasesrc
+          cp firebase.main.json firebase.json
+
+      - name: 🚀 Deploy to Firebase Hosting
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}'
+          channelId: live
+          projectId: bubebusiness-184d1

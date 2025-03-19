@@ -1,0 +1,115 @@
+{
+  "warehouse": {
+    "create": {
+      "titleCreate": "Khai Báo Kho Hàng",
+      "titleUpdate": "Sửa Kho Hàng",
+      "name": "Tên kho hàng",
+      "code": "Mã",
+      "image": "Hình ảnh",
+      "type": "Loại",
+      "group": "Nhóm",
+      "warehouseFather": "Kho hàng cha"
+    },
+    "list": {
+      "title": "Danh Sách Kho Hàng",
+      "label": "kho hàng",
+      "table.name": "Tên",
+      "table.isCompanyAsset": "Thuộc",
+      "table.type": "Loại",
+      "table.group": "Nhóm",
+      "table.warehouseFather": "Thuộc kho"
+    }
+  },
+  "warehouseType.createNew": {
+    "create": {
+      "titleCreate": "Khai Báo Loại Kho Hàng",
+      "titleUpdate": "Sửa Loại Kho Hàng",
+      "name": "Tên loại kho hàng",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh sách loại kho hàng",
+      "label": "loại kho hàng",
+      "table.name": "Tên",
+      "table.isCompanyAsset": "Thuộc"
+    }
+  },
+  "warehouseGroup": {
+    "create": {
+      "titleCreate": "Khai Báo Nhóm Kho Hàng",
+      "titleUpdate": "Sửa Nhóm Kho Hàng",
+      "name": "Tên nhóm kho hàng",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Nhóm Kho Hàng",
+      "label": "nhóm kho hàng",
+      "table.name": "Tên",
+      "table.isCompanyAsset": "Thuộc"
+    }
+  },
+  "supplier": {
+    "create": {
+      "titleCreate": "Khai Báo Nhà Cung Cấp",
+      "titleUpdate": "Sửa Nhà Cung Cấp",
+      "name": "Tên nhà cung cấp",
+      "code": "Mã",
+      "image": "Hình ảnh",
+      "type": "Loại",
+      "group": "Nhóm"
+    },
+    "list": {
+      "title": "Danh sách nhà cung cấp",
+      "label": "nhà cung cấp",
+      "table.name": "Tên",
+      "table.isCompanyAsset": "Thuộc",
+      "table.type": "Loại",
+      "table.group": "Nhóm"
+    }
+  },
+  "supplierType": {
+    "create": {
+      "titleCreate": "Khai Báo Loại Nhà Cung Cấp",
+      "titleUpdate": "Sửa Loại Nhà Cung Cấp",
+      "name": "Tên loại nhà cung cấp",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh sách loại nhà cung cấp",
+      "label": "loại nhà cung cấp",
+      "table.name": "Tên",
+      "table.isCompanyAsset": "Thuộc",
+      "table.supplierCount": "Số lượng nhà cung cấp"
+    }
+  },
+  "supplierGroup": {
+    "create": {
+      "titleCreate": "Khai Báo Nhóm Nhà Cung Cấp",
+      "titleUpdate": "Sửa Nhóm Nhà Cung Cấp",
+      "name": "Tên nhóm nhà cung cấp",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Nhóm Nhà Cung Cấp",
+      "label": "nhóm nhà cung cấp",
+      "table.name": "Tên",
+      "table.isCompanyAsset": "Thuộc",
+      "table.supplierCount": "Số lượng nhà cung cấp"
+    }
+  },
+  "addProductToWarehouseForm": {
+    "titleCreate": "Thêm Sản Phẩm Vào Phiếu",
+    "titleUpdate": "Sửa Thông Tin Sản Phẩm",
+    "name": "Sản phẩm",
+    "unit": "Đơn vị",
+    "quantity": "Số lượng",
+    "batchNumber": "Số lô",
+    "dateOfManufacture": "Ngày sản xuất",
+    "expiry": "Hạn sử dụng",
+    "warehouse": "Kho"
+  }
+}

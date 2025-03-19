@@ -1,0 +1,36 @@
+{
+  "goodReceiptNote": {
+    "create": {
+      "title": "Phiếu Phập Hàng",
+      "tab.information": "Thông tin cơ bản",
+      "tab.info.ticketId": "ID phiếu",
+      "tab.info.time": "Thời gian nhập hàng",
+      "tab.info.purchaseOrder": "Phiếu đặt hàng đối ứng",
+      "tab.info.goodReceiptNoteTemplate": "Mẫu phiếu nhập hàng",
+      "tab.info.ticketName": "Tên phiếu",
+      "tab.info.supplier": "Nhà cung cấp",
+      "tab.info.employee": "Người nhận hàng",
+      "tab.info.createdBy": "Người tạo phiếu",
+      "tab.detail": "Chi tiết",
+      "tab.description/note": "Mô tả/Ghi chú"
+    },
+    "history": {
+      "title": "Lịch sử nhập hàng",
+      "label": "nhập hàng",
+      "label.isDraft": "Bản nháp",
+      "table.time": "Thời gian",
+      "table.date": "Ngày",
+      "table.name": "Tên phiếu",
+      "table.employee": "Người nhập hàng",
+      "table.supplier": "Nhà cung cấp",
+      "table.createdBy": "Người tạo phiếu",
+      "table.createdAt": "Thời gian tạo phiếu",
+      "table.status": "Trạng thái",
+      "table.action": "Hành động"
+    }
+  },
+  "addProductToGoodReceiptNote": {
+    "titleCreate": "Thêm sản phẩm vào phiếu",
+    "titleUpdate": "Sửa sản phẩm"
+  }
+}

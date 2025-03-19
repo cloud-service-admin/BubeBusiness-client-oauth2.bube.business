@@ -1,0 +1,172 @@
+{
+  "product": {
+    "create": {
+      "titleCreate": "Khai Báo Sản Phẩm",
+      "titleUpdate": "Sửa Sản Phẩm",
+      "detail": {
+        "name": "Tên sản phẩm",
+        "code": "Mã",
+        "mainUnit": "Đơn vị chính",
+        "subUnit": "Đơn vị phụ",
+        "typeOf": "Kiểu",
+        "type": "Loại",
+        "group": "Nhóm",
+        "category": "Danh mục",
+        "tag": "Tag",
+        "message_error_subUnitIsMainUnit": "Đơn vị \"{{unitName}}\" đã được chọn là đơn vị chính",
+        "message_error_unitConversion": "Đơn vị \"{{listUnitName}}\" chưa khai báo quy đổi"
+      }
+    },
+    "list": {
+      "title": "Danh Sách Sản Phẩm",
+      "label": "sản phẩm",
+      "table_name": "Tên",
+      "table_isCompanyAsset": "Thuộc",
+      "table_typeOf": "Kiểu",
+      "table_type": "Loại",
+      "table_group": "Nhóm",
+      "table_category": "Danh mục",
+      "table_tag": "Tag"
+    }
+  },
+  "productTypeOf": {
+    "create": {
+      "titleCreate": "Khai Báo Kiểu Sản Phẩm",
+      "titleUpdate": "Sửa Kiểu Sản Phẩm",
+      "name": "Tên kiểu sản phẩm",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Kiểu Sản Phẩm",
+      "label": "kiểu sản phẩm",
+      "table_name": "Tên",
+      "table_isCompanyAsset": "Thuộc",
+      "table_productCount": "Số lượng sản phẩm"
+    }
+  },
+  "productType": {
+    "create": {
+      "titleCreate": "Khai Báo Loại Sản Phẩm",
+      "titleUpdate": "Sửa Loại Sản Phẩm",
+      "name": "Tên loại sản phẩm",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Loại Sản Phẩm",
+      "label": "loại sản phẩm",
+      "table_name": "Tên",
+      "table_isCompanyAsset": "Thuộc",
+      "table_productCount": "Số lượng sản phẩm"
+    }
+  },
+  "productGroup": {
+    "create": {
+      "titleCreate": "Khai Báo Nhóm Sản Phẩm",
+      "titleUpdate": "Sửa Nhóm Sản Phẩm",
+      "name": "Tên nhóm sản phẩm",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Nhóm Sản Phẩm",
+      "label": "nhóm sản phẩm",
+      "table_name": "Tên",
+      "table_isCompanyAsset": "Thuộc",
+      "table_productCount": "Số lượng sản phẩm"
+    }
+  },
+  "productCategory": {
+    "create": {
+      "titleCreate": "Khai Báo Danh Mục Sản Phẩm",
+      "titleUpdate": "Sửa Danh Mục Sản Phẩm",
+      "name": "Tên danh mục sản phẩm",
+      "categoryFather": "Danh mục cha",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Danh Mục Sản Phẩm",
+      "label": "danh mục sản phẩm",
+      "table_name": "Tên",
+      "table_isCompanyAsset": "Thuộc",
+      "table_categoryFather": "Danh mục cha",
+      "table_productCount": "Số lượng sản phẩm"
+    }
+  },
+  "productTag": {
+    "create": {
+      "titleCreate": "Khai Báo Tag Sản Phẩm",
+      "titleUpdate": "Sửa Tag Sản Phẩm",
+      "name": "Tên tag sản phẩm",
+      "code": "Mã",
+      "image": "Hình ảnh"
+    },
+    "list": {
+      "title": "Danh Sách Tag Sản Phẩm",
+      "label": "tag sản phẩm",
+      "table_name": "Tên",
+      "table_isCompanyAsset": "Thuộc",
+      "table_productCount": "Số lượng sản phẩm"
+    }
+  },
+  "productOf": {
+    "list": {
+      "title": "Danh Sách Sản Phẩm Thuộc {{type}} \"{{name}}\"",
+      "button": {
+        "addMoreProduct": "Bổ sung sản phẩm vào {{type}} \"{{name}}\""
+      }
+    }
+  },
+  "unit": {
+    "create": {
+      "titleCreate": "Khai Báo Đơn Vị",
+      "titleUpdate": "Sửa Đơn Vị",
+      "name": "Tên đơn vị",
+      "code": "Mã",
+      "buttonCreateUnitConversion": "Khai báo quy đổi đơn vị",
+      "buttonCancelUnitConversion": "Huỷ khai báo quy đổi đơn vị",
+      "unitConversion": "Quy đổi đơn vị",
+      "noteUnitConversion": "Có thể cài đặt quy đổi đơn vị riêng cho từng sản phẩm trong menu quy đổi đơn vị_ VD: Sản phẩm \"Bia\", 1 thùng = 24 lon, riêng bia Tiger Bạc, 1 thùng = 20 lon",
+      "unit1Name": "Đơn vị 1",
+      "unit2Name": "Đơn vị 2",
+      "conversionRate": "Tỷ lệ quy đổi",
+      "notification": {
+        "errorUnitConversion": "Bổ sung đầy đủ cài đặt quy đổi đơn vị"
+      }
+    },
+    "list": {
+      "title": "Danh Sách Đơn Vị",
+      "label": "đơn vị tính",
+      "table_isCompanyAsset": "Thuộc",
+      "table_name": "Đơn vị",
+      "table_productCount": "Số lượng sản phẩm"
+    }
+  },
+  "unitConversion": {
+    "create": {
+      "titleCreate": "Khai Báo Quy Đổi Đơn Vị",
+      "titleUpdate": "Sửa Quy Đổi Đơn Vị",
+      "applyForSpecialProduct": "Áp dụng riêng cho sản phẩm",
+      "applyForSpecialProductDescription": "Bỏ trống nếu áp dụng chung cho toàn bộ sản phẩm",
+      "unit1": "Đơn vị 1",
+      "unit2": "Đơn vị 2",
+      "conversion": "Tỷ lệ quy đổi",
+      "button_changePosition": "Đảo vị trí đơn vị"
+    },
+    "list": {
+      "title": "Danh Sách Quy Đổi Đơn Vị",
+      "label": "quy đổi đơn vị",
+      "table_unit1": "Đơn vị 1",
+      "table_unit2": "Đơn vị 2",
+      "table_conversionRate": "Tỷ lệ quy đổi"
+    }
+  },
+  "addUnitToProduct": {
+    "title": "Thêm Đơn Vị Vào Sản Phẩm",
+    "product": "Sản phẩm",
+    "mainUnit": "Đơn vị chính",
+    "subUnit": "Đơn vị phụ"
+  }
+}

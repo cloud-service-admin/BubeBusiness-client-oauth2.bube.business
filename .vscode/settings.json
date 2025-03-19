@@ -1,0 +1,28 @@
+{
+    "postman.settings.dotenv-detection-notification-visibility": false
+} // {
+//   "tabnine.experimentalAutoImports": true,
+//   "workbench.startupEditor": "none",
+//   "background.fullscreen": {
+//     "images": [
+//       "https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=600"
+//     ], // urls of your images
+//     "opacity": 0.9, // 0.85 ~ 0.95 recommended
+//     "size": "cover", // also css, `cover` to self-adaption (recommended)，or `contain`、`200px 200px`
+//     "position": "center", // alias to `background-position`, default `center`
+//     "interval": 0 // seconds of interval for carousel, default `0` to disabled.
+//   },
+//   "security.workspace.trust.untrustedFiles": "open",
+//   "window.zoomLevel": 1,
+//   "files.autoSave": "off",
+//   "editor.formatOnSave": true,
+//   "liveServer.settings.donotShowInfoMsg": true,
+//   "editor.defaultFormatter": "esbenp.prettier-vscode",
+//   "javascript.updateImportsOnFileMove.enabled": "always",
+//   "typescript.updateImportsOnFileMove.enabled": "always",
+//   "vsicons.dontShowNewVersionMessage": true,
+//   "redhat.telemetry.enabled": true,
+//   "git.autofetch": true,
+//   "cSpell.words": ["nhật", "Nhiệm"],
+//   "postman.settings.dotenv-detection-notification-visibility": false
+// }

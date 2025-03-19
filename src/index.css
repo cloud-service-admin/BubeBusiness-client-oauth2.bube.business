@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+#root {
+  height: 100dvh;
+  overflow: hidden;
+  /* box-sizing: border-box; */
+}
+
+.table-row-draft {
+  color: red;
+}
+
+/* #html5-qrcode-button-camera-permission {
+  display: none;
+} */
+
+/* #html5-qrcode-anchor-scan-type-change {
+  display: none;
+} */
+
+/* #html5qr-code-full-region > div:nth-child(1) > img {
+  display: none !important;
+}
+* #html5qr-code-full-region__scan_region > video {
+  height: 100% !important;
+  width: auto !important;
+} */
+
+/* #html5qr-code-full-region__dashboard {
+  display: none;
+} */

@@ -1,0 +1,17 @@
+{
+  "purchaseRequisition": {
+    "create": {
+      "title": "Phiếu Yêu Cầu ( Đề Nghị ) Gọi Hàng",
+      "tab.info": "Thông tin cơ bản",
+      "tab.detail": "Chi tiết",
+      "tab.description/note": "Mô tả/Ghi chú",
+      "info": {
+        "ticketId": "ID phiếu",
+        "time": "Thời gian tạo phiếu",
+        "purchaseRequisitionTemplate": "Mẫu phiếu yêu cầu gọi hàng",
+        "ticketName": "Tên phiếu",
+        "createdBy": "Người tạo phiếu"
+      }
+    }
+  }
+}

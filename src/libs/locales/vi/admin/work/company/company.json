@@ -1,0 +1,50 @@
+{
+  "company": {
+    "menu": {
+      "title": "Công ty"
+    },
+    "create": {
+      "title": "Khai báo công ty",
+      "name": "Tên công ty",
+      "shortName": "Tên rút gọn",
+      "code": "Mã công ty",
+      "address": {
+        "country": "Quốc gia",
+        "stateCity": "Bang/Thành phố",
+        "zipCode": "ZipCode",
+        "addressLine1": "Địa chỉ dòng 1",
+        "addressLine2": "Địa chỉ dòng 2",
+        "shortAddress": "Địa chỉ rút gọn"
+      },
+      "phone": {
+        "code": "Mã vùng",
+        "number": "Số điện thoại"
+      },
+      "timezone": "Múi giờ",
+      "dateFormat": "Dịnh dạng ngày tháng",
+      "currency": "Đơn vị tiền tệ",
+      "description": "Định nghĩa",
+      "note": "Ghi chú"
+    },
+    "list": {
+      "title": "Danh Sách Công Ty",
+      "table_company": "Tên công ty",
+      "table_address": "Địa chỉ",
+      "table_typeOfEmployee": "Hình thức nhân viên",
+      "table_position": "Chức vụ/Vị trí",
+      "table_status": "Trạng thái",
+      "table_action": "Hành động"
+    }
+  },
+  "branch": {
+    "list": {
+      "title": "Danh Sách Chi Nhánh",
+      "table_company": "Chi nhánh",
+      "table_address": "Địa chỉ",
+      "table_typeOfEmployee": "Hình thức nhân viên",
+      "table_position": "Chức vụ/Vị trí",
+      "table_status": "Trạng thái",
+      "table_action": "Hành động"
+    }
+  }
+}

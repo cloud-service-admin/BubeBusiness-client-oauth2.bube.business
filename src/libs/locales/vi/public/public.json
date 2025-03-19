@@ -1,0 +1,60 @@
+{
+  "login": {
+    "title": "Đăng nhập",
+    "password": "Mật khẩu",
+    "button_register": "Đăng ký",
+    "button_login": "Đăng nhập",
+    "button_loginViaPhone": "Đăng nhập qua số điện thoại"
+  },
+  "register": {
+    "title": "Đăng ký",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "rePassword": "Nhập lại mật khẩu",
+    "name": {
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "fullName": "Tên đầy đủ"
+    },
+    "address": {
+      "country": "Quốc gia",
+      "stateCity": "Bang/Thành phố",
+      "zipCode": "ZipCode",
+      "addressLine1": "Địa chỉ dòng 1",
+      "addressLine2": "Địa chỉ dòng 2",
+      "shortAddress": "Địa chỉ rút gọn"
+    },
+    "phone": {
+      "code": "Mã vùng",
+      "number": "Số điện thoại"
+    },
+    "gender": "Giới tính",
+    "dateOfBirth": "Ngày sinh",
+    "timezone": "Múi giờ",
+    "dateFormat": "Định dạng ngày tháng",
+    "currency": "Đơn vị tiền tệ",
+    "btn_register": "Đăng ký"
+  },
+  "placeHolder": {
+    "firstName": "Bube",
+    "lastName": "Business",
+    "email": "email@bube.business",
+    "gender": "Nam",
+    "dateOfBirth": "14/03/1879",
+    "country": "Switzerland",
+    "stateCity": "Fribourg",
+    "addressLine1": "Địa chỉ dòng 1",
+    "addressLine2": "Địa chỉ dòng 2",
+    "shortAddress": "Địa chỉ rút gọn",
+    "phoneCode": "+86",
+    "phoneNumber": "674355744",
+    "timezone": "UTC+6",
+    "dateFormat": "DD/MM/YYYY",
+    "currency": "EUR"
+  },
+  "error": {
+    "fieldRequired": "Không được bỏ trống",
+    "email": "Email không đúng định dạng",
+    "rePassword": "Mật khẩu không khớp"
+  }
+}

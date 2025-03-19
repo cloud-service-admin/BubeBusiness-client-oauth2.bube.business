@@ -1,0 +1,37 @@
+name: branch-dev-build
+
+on:
+  push:
+    branches:
+      - dev # Theo dõi khi có thay đổi trên nhánh dev
+
+jobs:
+  branch-dev-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔥 Checkout code from main
+        uses: actions/checkout@v4
+
+      - name: 🏗️ Install Node.js & cache dependencies
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 📦 Audit fix (non-blocking)
+        run: npm audit fix || echo "npm audit fix failed, continuing..."
+
+      - name: 📦 Force audit fix (including breaking changes)
+        run: npm audit fix --force || echo "npm audit fix --force failed, continuing..."
+
+      - name: 📄 create .env
+        run: |
+          echo "VITE_APP_API_URL=${{ secrets.DEV_VITE_APP_API_URL }}" > .env
+          echo "VITE_APP_MODE=${{ secrets.DEV_VITE_APP_MODE }}" >> .env
+
+      - name: 🚀 Build project
+        run: npm run build

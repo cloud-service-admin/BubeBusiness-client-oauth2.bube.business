@@ -1,0 +1,11 @@
+{
+  "title": "Danh Sách Sản Phẩm",
+  "label": "sản phẩm",
+  "table_name": "Tên",
+  "table_isCompanyAsset": "Thuộc",
+  "table_typeOf": "Kiểu",
+  "table_type": "Loại",
+  "table_group": "Nhóm",
+  "table_category": "Danh mục",
+  "table_tag": "Tag"
+}
