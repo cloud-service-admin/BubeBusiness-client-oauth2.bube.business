@@ -1,1 +1,1 @@
-# BubeBusiness-client-oauth2.bube.business-
+# BubeBusiness-client-oauth2.bube.business
